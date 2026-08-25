@@ -34,7 +34,7 @@ telegramButton.addEventListener(
 // AUTO REDIRECT COUNTDOWN
 // ==========================================
 
-let secondsLeft = 7;
+let secondsLeft = 12;
 
 const countdownElement =
     document.getElementById("countdown");
@@ -61,7 +61,7 @@ const redirectTimer =
         // Progress bar calculation
 
         const progressPercentage =
-            (secondsLeft / 7) * 100;
+            (secondsLeft / 12) * 100;
 
 
         if (progressBar) {
