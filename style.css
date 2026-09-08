@@ -187,19 +187,11 @@ body {
     margin-bottom: 28px;
 
     font-weight: 800;
-
-    background:
-
-        linear-gradient(
-            90deg,
-            #42dfff,
-            #7cc7ff,
-            #ffffff
-        );
-
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
+    
+    color: red;
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: red;
 
 }
 
